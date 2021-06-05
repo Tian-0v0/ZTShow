@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3805EB266B28D20060957B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3805EA266B28D20060957B /* AppDelegate.swift */; };
+		BC3805ED266B28D20060957B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3805EC266B28D20060957B /* SceneDelegate.swift */; };
+		BC3805EF266B28D20060957B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3805EE266B28D20060957B /* ViewController.swift */; };
+		BC3805F2266B28D20060957B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3805F0266B28D20060957B /* Main.storyboard */; };
+		BC3805F4266B28D40060957B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3805F3266B28D40060957B /* Assets.xcassets */; };
+		BC3805F7266B28D40060957B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3805F5266B28D40060957B /* LaunchScreen.storyboard */; };
+		BC38060D266B4DDE0060957B /* ZTShowWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38060C266B4DDE0060957B /* ZTShowWindow.swift */; };
+		BC380610266B4E270060957B /* ZTShowWindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38060F266B4E270060957B /* ZTShowWindowRootViewController.swift */; };
+		BC380614266B4E530060957B /* ZTShowWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC380613266B4E530060957B /* ZTShowWindowManager.swift */; };
+		BC380618266B4E6B0060957B /* ZTShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC380617266B4E6B0060957B /* ZTShowViewController.swift */; };
+		BC38061D266B4E9E0060957B /* ZTShowViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38061C266B4E9E0060957B /* ZTShowViewManager.swift */; };
+		BC380622266B4F410060957B /* ZTToastPodfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC380621266B4F410060957B /* ZTToastPodfile.swift */; };
+		BC380625266B4F540060957B /* ZTShowViewPodfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC380624266B4F540060957B /* ZTShowViewPodfile.swift */; };
+		BC380628266B4F640060957B /* ZTShowWindowPodfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC380627266B4F640060957B /* ZTShowWindowPodfile.swift */; };
+		BC38062B266B4F9D0060957B /* ZTBaseToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38062A266B4F9D0060957B /* ZTBaseToastView.swift */; };
+		BC38062E266B4FE90060957B /* ZTTextToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38062D266B4FE90060957B /* ZTTextToastView.swift */; };
+		BC380631266B50010060957B /* ZTLoadingToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC380630266B50010060957B /* ZTLoadingToastView.swift */; };
+		BC380635266B50830060957B /* ZTGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC380634266B50830060957B /* ZTGlobal.swift */; };
+		BC380638266B53C10060957B /* ZTShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC380637266B53C10060957B /* ZTShow.swift */; };
+		BC38063D266B54890060957B /* ZTBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38063C266B54890060957B /* ZTBaseTableViewController.swift */; };
+		DA6551000F273773C67F663C /* Pods_ZTShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4459AFC42E999B09749E9EEC /* Pods_ZTShow.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CE547A0A2553454EA0A8680 /* Pods-ZTShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTShow.debug.xcconfig"; path = "Target Support Files/Pods-ZTShow/Pods-ZTShow.debug.xcconfig"; sourceTree = "<group>"; };
+		2EF960AD38F23FD8AE37B859 /* Pods-ZTShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTShow.release.xcconfig"; path = "Target Support Files/Pods-ZTShow/Pods-ZTShow.release.xcconfig"; sourceTree = "<group>"; };
+		4459AFC42E999B09749E9EEC /* Pods_ZTShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3805E7266B28D20060957B /* ZTShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3805EA266B28D20060957B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC3805EC266B28D20060957B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC3805EE266B28D20060957B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC3805F1266B28D20060957B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC3805F3266B28D40060957B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC3805F6266B28D40060957B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC3805F8266B28D40060957B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC38060C266B4DDE0060957B /* ZTShowWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTShowWindow.swift; sourceTree = "<group>"; };
+		BC38060F266B4E270060957B /* ZTShowWindowRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTShowWindowRootViewController.swift; sourceTree = "<group>"; };
+		BC380613266B4E530060957B /* ZTShowWindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTShowWindowManager.swift; sourceTree = "<group>"; };
+		BC380617266B4E6B0060957B /* ZTShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTShowViewController.swift; sourceTree = "<group>"; };
+		BC38061C266B4E9E0060957B /* ZTShowViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTShowViewManager.swift; sourceTree = "<group>"; };
+		BC380621266B4F410060957B /* ZTToastPodfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTToastPodfile.swift; sourceTree = "<group>"; };
+		BC380624266B4F540060957B /* ZTShowViewPodfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTShowViewPodfile.swift; sourceTree = "<group>"; };
+		BC380627266B4F640060957B /* ZTShowWindowPodfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTShowWindowPodfile.swift; sourceTree = "<group>"; };
+		BC38062A266B4F9D0060957B /* ZTBaseToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTBaseToastView.swift; sourceTree = "<group>"; };
+		BC38062D266B4FE90060957B /* ZTTextToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTTextToastView.swift; sourceTree = "<group>"; };
+		BC380630266B50010060957B /* ZTLoadingToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTLoadingToastView.swift; sourceTree = "<group>"; };
+		BC380634266B50830060957B /* ZTGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTGlobal.swift; sourceTree = "<group>"; };
+		BC380637266B53C10060957B /* ZTShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTShow.swift; sourceTree = "<group>"; };
+		BC38063C266B54890060957B /* ZTBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTBaseTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3805E4266B28D20060957B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6551000F273773C67F663C /* Pods_ZTShow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		941ECD05F525C408D891A0D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4459AFC42E999B09749E9EEC /* Pods_ZTShow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3805DE266B28D10060957B = {
+			isa = PBXGroup;
+			children = (
+				BC3805E9266B28D20060957B /* ZTShow */,
+				BC3805E8266B28D20060957B /* Products */,
+				E351EF2D207A22A874A4BCE3 /* Pods */,
+				941ECD05F525C408D891A0D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3805E8266B28D20060957B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3805E7266B28D20060957B /* ZTShow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3805E9266B28D20060957B /* ZTShow */ = {
+			isa = PBXGroup;
+			children = (
+				BC38063B266B547E0060957B /* Base */,
+				BC380609266B4DA70060957B /* ZTShow */,
+				BC3805EA266B28D20060957B /* AppDelegate.swift */,
+				BC3805EC266B28D20060957B /* SceneDelegate.swift */,
+				BC3805EE266B28D20060957B /* ViewController.swift */,
+				BC3805F0266B28D20060957B /* Main.storyboard */,
+				BC3805F3266B28D40060957B /* Assets.xcassets */,
+				BC3805F5266B28D40060957B /* LaunchScreen.storyboard */,
+				BC3805F8266B28D40060957B /* Info.plist */,
+			);
+			path = ZTShow;
+			sourceTree = "<group>";
+		};
+		BC380609266B4DA70060957B /* ZTShow */ = {
+			isa = PBXGroup;
+			children = (
+				BC380637266B53C10060957B /* ZTShow.swift */,
+				BC380633266B50600060957B /* Tools */,
+				BC38061F266B4EB30060957B /* ZTShowContentView */,
+				BC38060B266B4DC10060957B /* ZTShowView */,
+				BC38060A266B4DB30060957B /* ZTShowWindow */,
+			);
+			path = ZTShow;
+			sourceTree = "<group>";
+		};
+		BC38060A266B4DB30060957B /* ZTShowWindow */ = {
+			isa = PBXGroup;
+			children = (
+				BC38060C266B4DDE0060957B /* ZTShowWindow.swift */,
+				BC38060F266B4E270060957B /* ZTShowWindowRootViewController.swift */,
+				BC380613266B4E530060957B /* ZTShowWindowManager.swift */,
+				BC380627266B4F640060957B /* ZTShowWindowPodfile.swift */,
+			);
+			path = ZTShowWindow;
+			sourceTree = "<group>";
+		};
+		BC38060B266B4DC10060957B /* ZTShowView */ = {
+			isa = PBXGroup;
+			children = (
+				BC380617266B4E6B0060957B /* ZTShowViewController.swift */,
+				BC38061C266B4E9E0060957B /* ZTShowViewManager.swift */,
+				BC380624266B4F540060957B /* ZTShowViewPodfile.swift */,
+			);
+			path = ZTShowView;
+			sourceTree = "<group>";
+		};
+		BC38061F266B4EB30060957B /* ZTShowContentView */ = {
+			isa = PBXGroup;
+			children = (
+				BC380620266B4EC90060957B /* ZTToast */,
+			);
+			path = ZTShowContentView;
+			sourceTree = "<group>";
+		};
+		BC380620266B4EC90060957B /* ZTToast */ = {
+			isa = PBXGroup;
+			children = (
+				BC380621266B4F410060957B /* ZTToastPodfile.swift */,
+				BC38062A266B4F9D0060957B /* ZTBaseToastView.swift */,
+				BC38062D266B4FE90060957B /* ZTTextToastView.swift */,
+				BC380630266B50010060957B /* ZTLoadingToastView.swift */,
+			);
+			path = ZTToast;
+			sourceTree = "<group>";
+		};
+		BC380633266B50600060957B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BC380634266B50830060957B /* ZTGlobal.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BC38063B266B547E0060957B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BC38063C266B54890060957B /* ZTBaseTableViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E351EF2D207A22A874A4BCE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CE547A0A2553454EA0A8680 /* Pods-ZTShow.debug.xcconfig */,
+				2EF960AD38F23FD8AE37B859 /* Pods-ZTShow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3805E6266B28D20060957B /* ZTShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3805FB266B28D40060957B /* Build configuration list for PBXNativeTarget "ZTShow" */;
+			buildPhases = (
+				EA3DCFF53542A3C89F246CC3 /* [CP] Check Pods Manifest.lock */,
+				BC3805E3266B28D20060957B /* Sources */,
+				BC3805E4266B28D20060957B /* Frameworks */,
+				BC3805E5266B28D20060957B /* Resources */,
+				CFC623115A9B8079AD0E9F14 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTShow;
+			productName = ZTShow;
+			productReference = BC3805E7266B28D20060957B /* ZTShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3805DF266B28D10060957B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BC3805E6266B28D20060957B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = BC3805E2266B28D10060957B /* Build configuration list for PBXProject "ZTShow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3805DE266B28D10060957B;
+			productRefGroup = BC3805E8266B28D20060957B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3805E6266B28D20060957B /* ZTShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3805E5266B28D20060957B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3805F7266B28D40060957B /* LaunchScreen.storyboard in Resources */,
+				BC3805F4266B28D40060957B /* Assets.xcassets in Resources */,
+				BC3805F2266B28D20060957B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFC623115A9B8079AD0E9F14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZTShow/Pods-ZTShow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZTShow/Pods-ZTShow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZTShow/Pods-ZTShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3DCFF53542A3C89F246CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZTShow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3805E3266B28D20060957B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC38062E266B4FE90060957B /* ZTTextToastView.swift in Sources */,
+				BC380618266B4E6B0060957B /* ZTShowViewController.swift in Sources */,
+				BC380628266B4F640060957B /* ZTShowWindowPodfile.swift in Sources */,
+				BC380635266B50830060957B /* ZTGlobal.swift in Sources */,
+				BC38060D266B4DDE0060957B /* ZTShowWindow.swift in Sources */,
+				BC3805EF266B28D20060957B /* ViewController.swift in Sources */,
+				BC380638266B53C10060957B /* ZTShow.swift in Sources */,
+				BC380614266B4E530060957B /* ZTShowWindowManager.swift in Sources */,
+				BC3805EB266B28D20060957B /* AppDelegate.swift in Sources */,
+				BC380625266B4F540060957B /* ZTShowViewPodfile.swift in Sources */,
+				BC38062B266B4F9D0060957B /* ZTBaseToastView.swift in Sources */,
+				BC380622266B4F410060957B /* ZTToastPodfile.swift in Sources */,
+				BC38063D266B54890060957B /* ZTBaseTableViewController.swift in Sources */,
+				BC3805ED266B28D20060957B /* SceneDelegate.swift in Sources */,
+				BC380610266B4E270060957B /* ZTShowWindowRootViewController.swift in Sources */,
+				BC38061D266B4E9E0060957B /* ZTShowViewManager.swift in Sources */,
+				BC380631266B50010060957B /* ZTLoadingToastView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC3805F0266B28D20060957B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3805F1266B28D20060957B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC3805F5266B28D40060957B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3805F6266B28D40060957B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3805F9266B28D40060957B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC3805FA266B28D40060957B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3805FC266B28D40060957B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE547A0A2553454EA0A8680 /* Pods-ZTShow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GC36VLZ5EF;
+				INFOPLIST_FILE = ZTShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.szmsd.ZTShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC3805FD266B28D40060957B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF960AD38F23FD8AE37B859 /* Pods-ZTShow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GC36VLZ5EF;
+				INFOPLIST_FILE = ZTShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.szmsd.ZTShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3805E2266B28D10060957B /* Build configuration list for PBXProject "ZTShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3805F9266B28D40060957B /* Debug */,
+				BC3805FA266B28D40060957B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3805FB266B28D40060957B /* Build configuration list for PBXNativeTarget "ZTShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3805FC266B28D40060957B /* Debug */,
+				BC3805FD266B28D40060957B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3805DF266B28D10060957B /* Project object */;
+}
